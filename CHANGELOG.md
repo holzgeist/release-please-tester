@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.1...release-please-tester-v0.1.2) (2025-02-17)
+
+
+### Bug Fixes
+
+* **ci:** clone repo ([8844d94](https://github.com/holzgeist/release-please-tester/commit/8844d9475be9d69d0b53c242fa866ea92d7cb1a5))
+
 ## [0.1.1](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.0...release-please-tester-v0.1.1) (2025-02-17)
 
 
