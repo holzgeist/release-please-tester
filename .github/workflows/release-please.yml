@@ -19,6 +19,8 @@ jobs:
           token: ${{ secrets.RP_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+      - name: Clone Repo
+        uses: actions/checkout@v4
       - run: echo "content" > ./data
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
