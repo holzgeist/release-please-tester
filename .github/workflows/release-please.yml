@@ -25,8 +25,11 @@ jobs:
           mkdir data
           echo "file1" > data/f1
           echo "file2" > data/f2
+      - run: |
+          cd data
+          tar czvf ../data.tar.gz .
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ secrets.RP_TOKEN }}
-        run: gh release upload ${{ steps.release.outputs.tag_name }} ./data
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ./data.tar.gz
