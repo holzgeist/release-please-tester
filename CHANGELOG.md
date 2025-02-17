@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.2.1...release-please-tester-v0.2.2) (2025-02-17)
+
+
+### Bug Fixes
+
+* **ci:** don't include dot directory in top level ([21031c6](https://github.com/holzgeist/release-please-tester/commit/21031c6dc34f298f4bea0b5f7c6f8321cf55b654))
+
 ## [0.2.1](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.2.0...release-please-tester-v0.2.1) (2025-02-17)
 
 
