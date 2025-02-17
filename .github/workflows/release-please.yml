@@ -27,7 +27,7 @@ jobs:
           echo "file2" > data/f2
       - run: |
           cd data
-          tar czvf ../data.tar.gz .
+          tar czvf ../data.tar.gz *
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
