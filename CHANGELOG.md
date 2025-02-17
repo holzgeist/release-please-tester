@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.2...release-please-tester-v0.2.0) (2025-02-17)
+
+
+### Features
+
+* upload directory ([9b6dfcb](https://github.com/holzgeist/release-please-tester/commit/9b6dfcb01bc38b0d2abbff9a0d08453bc02be060))
+
 ## [0.1.2](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.1...release-please-tester-v0.1.2) (2025-02-17)
 
 
