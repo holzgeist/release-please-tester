@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.2.0...release-please-tester-v0.2.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* gzip data for bundling ([d1ae986](https://github.com/holzgeist/release-please-tester/commit/d1ae98623bfe7a0cbff775876ee83a9939470840))
+
 ## [0.2.0](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.2...release-please-tester-v0.2.0) (2025-02-17)
 
 
