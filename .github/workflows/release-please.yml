@@ -21,7 +21,10 @@ jobs:
           manifest-file: .release-please-manifest.json
       - name: Clone Repo
         uses: actions/checkout@v4
-      - run: echo "content" > ./data
+      - run: |
+          mkdir data
+          echo "file1" > data/f1
+          echo "file2" > data/f2
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
