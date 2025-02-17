@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/holzgeist/release-please-tester/compare/release-please-tester-v0.1.0...release-please-tester-v0.1.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* tag release step ([6a4ed44](https://github.com/holzgeist/release-please-tester/commit/6a4ed442587bd222102285061e4e2ababac0fdd8))
+
 ## 0.1.0 (2025-02-17)
 
 
